@@ -11,7 +11,7 @@ function App() {
   const handleConvert = async () => {
     setError(null);
     setOutput('');
-    
+
     if (!input.trim()) {
       setError('Please enter some input to convert.');
       return;
