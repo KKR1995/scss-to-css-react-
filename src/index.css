@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-gray-100{
+    background: linear-gradient(to bottom right, lightblue, black)!important;
+}
